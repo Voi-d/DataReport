@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据统计</title>
+    <script src="/static/js/jquery-2.2.4.min.js"></script>
+    <script src="/static/js/highcharts.js"></script>
+    <script src="/static/js/data.js"></script>
+</head>
+<body style="text-align: center">
+    <h1>
+        数据页面
+    </h1>
+    <form>
+        数据类型：
+        <select name="types" id="types">
+            <option value="tem1">温度1</option>
+            <option value="tem2">温度2</option>
+            <option value="tem3">温度3</option>
+            <option value="tem4">温度4</option>
+            <option value="vis">油液粘度</option>
+            <option value="hum">相对湿度</option>
+        </select>
+        ---站点号：
+        <select name="stationNum">
+            <option value="station0">0</option>
+            <option value="station1">1</option>
+            <option value="station2">2</option>
+            <option value="station3">3</option>
+            <option value="station4">4</option>
+            <option value="station5">5</option>
+            <option value="station6">6</option>
+            <option value="station7">7</option>
+            <option value="station8">8</option>
+            <option value="station9">9</option>
+        </select>
+        ---组号:
+        <select name="num">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        ---起始时间:<input type="date" name="start">
+        ---终止时间:<input type="date" name="end">
+        ---<input type="button" value="确定">
+    </form>
+    <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+</body>
+</html>
