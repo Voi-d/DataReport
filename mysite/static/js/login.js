@@ -21,7 +21,7 @@ $(document).ready(function () {
                 data: $('form').serializeArray(),
                 success: function (response, status, xhr) {
                     if(response.toString() == 'ok'){
-                        url = window.location.href.replace('login', 'home');
+                        url = window.location.href.replace('login', 'data');
                         window.location.href = url;
                     }else{
                         alert(response);

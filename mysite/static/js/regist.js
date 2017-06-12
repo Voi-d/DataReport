@@ -20,7 +20,7 @@ $(document).ready(function () {
                 data : $('form').serializeArray(),
                 success: function (response, status, xhr) {
                     if(response.toString() == 'ok'){
-                        url = window.location.href.replace('regist', 'home');
+                        url = window.location.href.replace('regist', 'data');
                         window.location.href = url;
                     }else{
                         alert(response);

@@ -29,7 +29,7 @@ function createCharts(data){
       text: '南京工程学院'
    };
    var subtitle = {
-      text: '风力变桨距远程监控系统'
+      text: '远程监控系统'
    };
    var xAxis = {
       type: 'datetime',
